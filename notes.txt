@@ -1,0 +1,22 @@
+NPM packages for font awesome:
+
+"@fortawesome/pro-light-svg-icons": "latest",
+"@fortawesome/pro-regular-svg-icons": "latest",
+"@fortawesome/pro-solid-svg-icons": "latest",
+"@fortawesome/free-brands-svg-icons": "latest",
+
+// .transition-enter-active {
+//   transition: all 0.5s;
+// }
+// .transition-enter {
+//   transform: translateY(100px);
+// }
+// .transition-enter-to {
+//   transform: translateY(0px);
+// }
+// .fade-leave {
+//   opacity: 1;
+// }
+// .fade-leave-to {
+//   opacity: 0;
+// }
