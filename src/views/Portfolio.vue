@@ -50,6 +50,21 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
+            <img src="./../assets/images/lunchcms-min.png">
+          </div>
+          <div class="right-side">
+            <div class="title">Lunch CMS</div>
+            <a class="std-btn" target="_blank" href="https://lunchcms.com">Check it Out</a>
+          </div>
+        </div>
+        <p
+          class="description"
+        >An administrative mobile/desktop CMS that I made to allow my clients to edit content on the web applications that I've made for them. I decided to make a CMS instead of using a 3rd party solution to avoid licensing fees and because I couldn't find a dead simple static site headless CMS.</p>
+      </div>
+
+      <div class="block">
+        <div class="top-half">
+          <div class="image">
             <img src="./../assets/images/ragequest-min.png">
           </div>
           <div class="right-side">
