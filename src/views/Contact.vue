@@ -23,6 +23,8 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 250px;
+  margin: 0 auto;
 }
 .form-pair {
   .label {

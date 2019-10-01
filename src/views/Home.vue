@@ -61,7 +61,7 @@ export default {};
   height: calc(100vh - #{$header-height} - 10px);
   position: absolute;
   left: 0;
-  top: 70px;
+  top: #{$header-height}
 }
 .inner {
   max-width: 500px;
@@ -108,10 +108,6 @@ export default {};
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: calc(100vh - #{$header-height + $footer-margin});
-  @media #{$mobile} {
-    min-height: calc(100vh  - #{$mobile-nav-height + $footer-margin});
-  }
 }
 .attrs {
   display: flex;

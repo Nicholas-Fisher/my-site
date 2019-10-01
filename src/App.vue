@@ -11,7 +11,7 @@
       </div>
     </div>
     <div class="content">
-      <router-view/>
+      <router-view class="router-view"/>
       <div class="footer">&copy; Nicholas Fisher {{new Date().getFullYear()}}</div>
     </div>
     <hamburger-menu :routes="routes"/>
@@ -48,20 +48,25 @@ export default {
 
 <style lang="scss">
 @import "./scss/_globals.scss";
-
+#app {
+  width: 100%;
+}
 .content {
-  margin-top: $header-height;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: calc(100vh - #{$header-height});
+  height: calc(100vh - #{$header-height});
+  overflow-y: auto;
+  .router-view {
+    flex: 1 0 auto;
+  }
   .footer {
-    height: $footer-margin;
-    text-align: center;
+    flex: 0 0 $footer-height;
+    // padding: 40px;
+    // text-align: center;
     @include flex-center();
   }
   @media #{$mobile} {
-    margin-top: 0;
     margin-bottom: $mobile-nav-height;
     min-height: calc(100vh - #{$mobile-nav-height});
   }
@@ -73,12 +78,8 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: fixed;
-  top:0;
-  left: 0;
-  width: 100vw;
+  width: 100%;
   box-shadow: 0 2px 4px rgba(0,0,0,0.15);
-  z-index: 999;
   .right-side, .left-side {
     display: flex;
     align-items: center;

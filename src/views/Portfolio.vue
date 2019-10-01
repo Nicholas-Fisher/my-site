@@ -99,6 +99,21 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
+            <img src="./../assets/images/scoutcanning-min.png">
+          </div>
+          <div class="right-side">
+            <div class="title">Scout Canning</div>
+            <a class="std-btn" target="_blank" href="http://enjoyscout.com/#/">Check it Out</a>
+          </div>
+        </div>
+        <p
+          class="description"
+        >A website built for a sustainable fish cannery. Like Two cannoes, this site has a lot of interesting visual features that couldn't be done with your typical website builder. It was also built on a super tight timeline.</p>
+      </div>
+
+      <div class="block">
+        <div class="top-half">
+          <div class="image">
             <img src="./../assets/images/caribbeansunset-min.png">
           </div>
           <div class="right-side">
