@@ -55,20 +55,17 @@ export default {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: calc(100vh - #{$header-height});
-  overflow-y: auto;
+  min-height: calc(100vh - #{$header-height});
   .router-view {
     flex: 1 0 auto;
   }
   .footer {
     flex: 0 0 $footer-height;
-    // padding: 40px;
-    // text-align: center;
     @include flex-center();
   }
   @media #{$mobile} {
-    margin-bottom: $mobile-nav-height;
     min-height: calc(100vh - #{$mobile-nav-height});
+    margin-bottom: $mobile-nav-height;
   }
 }
 #nav {
