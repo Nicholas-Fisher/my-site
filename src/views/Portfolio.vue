@@ -1,11 +1,13 @@
 <template>
   <div>
-    <h1 class="page-title"><span>Portfolio</span></h1>
+    <h1 class="page-title">
+      <span>Portfolio</span>
+    </h1>
     <div class="block-container">
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/tapmenuca-min.png">
+            <img src="./../assets/images/tapmenuca-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Tap Menu Product Site</div>
@@ -20,7 +22,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/tapmenuapp-min.png">
+            <img src="./../assets/images/tapmenuapp-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Tap Menu App</div>
@@ -35,7 +37,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/tapmenumanager-min.png">
+            <img src="./../assets/images/tapmenumanager-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Tap Menu Manager</div>
@@ -50,7 +52,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/lunchcms-min.png">
+            <img src="./../assets/images/lunchcms-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Lunch CMS</div>
@@ -65,15 +67,11 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/ragequest-min.png">
+            <img src="./../assets/images/ragequest-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Rage Quest</div>
-            <a
-              class="std-btn"
-              target="_blank"
-              href="https://ragequestgame.com"
-            >Check it Out</a>
+            <a class="std-btn" target="_blank" href="https://ragequestgame.com">Check it Out</a>
           </div>
         </div>
         <p
@@ -84,7 +82,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/twocanoes-min.png">
+            <img src="./../assets/images/twocanoes-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Two Canoes Trading</div>
@@ -99,7 +97,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/scoutcanning-min.png">
+            <img src="./../assets/images/scoutcanning-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Scout Canning</div>
@@ -114,11 +112,15 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/caribbeansunset-min.png">
+            <img src="./../assets/images/caribbeansunset-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Caribbean Sunset</div>
-            <a class="std-btn" target="_blank" href="https://tm-sunset.firebaseapp.com/#/">Check it Out</a>
+            <a
+              class="std-btn"
+              target="_blank"
+              href="https://tm-sunset.firebaseapp.com/#/"
+            >Check it Out</a>
           </div>
         </div>
         <p
@@ -129,7 +131,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/preszii-min.png">
+            <img src="./../assets/images/preszii-min.png" />
           </div>
           <div class="right-side">
             <div class="title">Preszii (WIP)</div>
@@ -144,7 +146,7 @@
       <div class="block">
         <div class="top-half">
           <div class="image">
-            <img src="./../assets/images/mysite-min.png">
+            <img src="./../assets/images/mysite-min.png" />
           </div>
           <div class="right-side">
             <div class="title">This Website</div>
@@ -154,18 +156,70 @@
         <p class="description">How meta.</p>
       </div>
     </div>
+
+    <h1 class="page-title">
+      <span>Design Gallery</span>
+    </h1>
+    <div class="gallery">
+      <thumb
+        v-for="(image, index) in gallery"
+        :key="index"
+        :img="image.imageUrl"
+        :text="image.text"
+      />
+    </div>
+
     <p class="disclaimer">
-      This is not an exhaustive list of everything I've built in my career. Check out my
-      <router-link to="/resume">resume</router-link> to see what I've worked on while working full-time.
+      <span>This is not an exhaustive list of everything I've built in my career. Check out my&nbsp;</span>
+      <router-link to="/resume">resume</router-link>
+      <span>&nbsp;to see what I've worked on while working full-time.</span>
     </p>
   </div>
 </template>
 
 <script>
-export default {};
+import img1 from "@/assets/images/design/tap-menu-design1-min.jpg";
+import img2 from "@/assets/images/design/tap-menu-design2-min.jpg";
+import img3 from "@/assets/images/design/tap-menu-design3-min.jpg";
+import img4 from "@/assets/images/design/tap-menu-flyer-min.png";
+import img5 from "@/assets/images/design/tap-menu-menu-designs-min.png";
+
+export default {
+  data() {
+    return {
+      gallery: [
+        {
+          imageUrl: img1,
+          text: "Tap Menu Product Site."
+        },
+        {
+          imageUrl: img2,
+          text: "Tap Menu Product Site."
+        },
+        {
+          imageUrl: img3,
+          text: "Tap Menu Product Site."
+        },
+        {
+          imageUrl: img4,
+          text: "Tap Menu flyer design."
+        },
+        {
+          imageUrl: img5,
+          text: "Tap Menu web app design."
+        }
+      ]
+    };
+  }
+};
 </script>
 
 <style lang="scss">
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
 .block-container {
   display: flex;
   justify-content: center;
@@ -174,6 +228,7 @@ export default {};
 .disclaimer {
   text-align: center;
   font-weight: bold;
+  margin-top: 20px;
   padding: 0 20px;
 }
 .block {
