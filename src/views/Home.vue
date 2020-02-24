@@ -22,7 +22,7 @@
       <div class="logo"/>
       <div class="name">Nicholas Fisher</div>
       <div class="sub">A web developer who enjoys it.</div>
-      <p>Web development is really fun. The tools are better than they've ever been, and single a well-rounded web developer can build a landscape changing product in a matter of months. Even with an abundance of investment and excitement in tech companies, there's still so many problems to solve. The more developers there are who're trying to get better at what they do, the faster we can solve these problems.</p>
+      <p>Web development is really fun. The tools are better than they've ever been, and a single well-rounded web developer can build a landscape changing product in a matter of months. Even with an abundance of investment and excitement in tech companies, there's still so many problems to solve. The more developers there are who're trying to get better at what they do, the faster we can solve these problems.</p>
       <div class="attrs">
         <div class="attr">
           <div class="icon">

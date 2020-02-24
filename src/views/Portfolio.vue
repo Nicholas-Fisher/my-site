@@ -178,36 +178,41 @@
 </template>
 
 <script>
-import img1 from "@/assets/images/design/tap-menu-design1-min.jpg";
-import img2 from "@/assets/images/design/tap-menu-design2-min.jpg";
-import img3 from "@/assets/images/design/tap-menu-design3-min.jpg";
-import img4 from "@/assets/images/design/tap-menu-flyer-min.png";
-import img5 from "@/assets/images/design/tap-menu-menu-designs-min.png";
+import tapMenuDesign1Min from "@/assets/images/design/tap-menu-design1-min.jpg";
+import tapMenuDesign2Min from "@/assets/images/design/tap-menu-design2-min.jpg";
+import tapMenuDesign3Min from "@/assets/images/design/tap-menu-design3-min.jpg";
+import tapMenuMenuDesignsMin from "@/assets/images/design/tap-menu-menu-designs-min.png";
+import logoDesignsMin from "@/assets/images/design/logo-designs-min.png";
+import bannerSmallMin from "@/assets/images/design/banner-small-min.png";
 
 export default {
   data() {
     return {
       gallery: [
         {
-          imageUrl: img1,
-          text: "Tap Menu Product Site."
-        },
-        {
-          imageUrl: img2,
-          text: "Tap Menu Product Site."
-        },
-        {
-          imageUrl: img3,
-          text: "Tap Menu Product Site."
-        },
-        {
-          imageUrl: img4,
-          text: "Tap Menu flyer design."
-        },
-        {
-          imageUrl: img5,
+          imageUrl: tapMenuMenuDesignsMin,
           text: "Tap Menu web app design."
-        }
+        },
+        {
+          imageUrl: logoDesignsMin,
+          text: "Logo designs."
+        },
+        {
+          imageUrl: bannerSmallMin,
+          text: "Tap Menu banner design."
+        },
+        {
+          imageUrl: tapMenuDesign1Min,
+          text: "Tap Menu Product Site."
+        },
+        {
+          imageUrl: tapMenuDesign2Min,
+          text: "Tap Menu Product Site."
+        },
+        {
+          imageUrl: tapMenuDesign3Min,
+          text: "Tap Menu Product Site."
+        },
       ]
     };
   }
