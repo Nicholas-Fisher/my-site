@@ -39,7 +39,7 @@
             </div>
             <div class="personal-info">
               <fa :icon="['fas', 'clock']"/>
-              <span>5+ years web development experience</span>
+              <span>7+ years web development experience</span>
             </div>
             <div class="personal-info">
               <fa :icon="['fas', 'handshake']"/>
@@ -56,7 +56,7 @@
         </div>
         <div class="card-container">
           <div class="info-card">
-            <div class="title">Freelancing</div>
+            <div class="title">Freelancing Full-Stack Dev</div>
             <div class="location-duration">
               <div class="location">
                 <fa :icon="['fas', 'map-marker']"/>
@@ -69,7 +69,11 @@
             </div>
             <ul>
               <li>Developed and designed various websites.</li>
-              <li>Built out a complex real-time ordering system using Firebase serverless technology.</li>
+              <li>Built a complex real-time ordering system using Firebase serverless technology.</li>
+              <li>Built an NFC utility web app.</li>
+              <li>Built a real time chat application for teachers and students</li>
+              <li>Added node.js experience by building express servers</li>
+              <li>Added native app development to my toolkit by building various Flutter apps</li>
             </ul>
           </div>
           <div class="info-card">
@@ -112,10 +116,6 @@
           <br>
           <br>
           <br>
-          <br>
-          <br>
-          <br>
-          <br>
 
           <div class="info-card">
             <div class="title">Front-End Web Dev at Prophix</div>
@@ -132,7 +132,7 @@
             <ul>
               <li>Learned a great deal about modern best practices in front-end web development from an Object Sharp consultant.</li>
               <li>Familiarized myself with a Microsoft-centric development stack (Visual Studio, TFS, Skype, Windows, Sharepoint, One Drive).</li>
-              <li>Worked within a large product team comprised of dozens of employees across product planning, quality assurance, product planning, and UX.</li>
+              <li>Worked within a large product team comprised of dozens of employees across product planning, quality assurance, and UX.</li>
             </ul>
           </div>
           <div class="info-card">
@@ -219,6 +219,10 @@
               <span>P</span>
             </div>
             <div class="skill">
+              <span>Dart</span>
+              <span>P</span>
+            </div>
+            <div class="skill">
               <span>SQL</span>
               <span>I</span>
             </div>
@@ -267,7 +271,7 @@
               <span>P</span>
             </div>
             <div class="skill">
-              <span>mongoDB</span>
+              <span>Flutter</span>
               <span>P</span>
             </div>
             <div class="skill">
@@ -279,6 +283,8 @@
               <span>I</span>
             </div>
           </div>
+
+          <br>
 
           <div class="info-card">
             <div class="title">Libraries</div>
@@ -380,7 +386,7 @@
             <div class="location-duration">
               <div class="location">
                 <fa :icon="['fas', 'map-marker']"/>
-                <span>St. George Campus, Toronto, ON</span>
+                <span>UofT, St. George Campus, Toronto, ON</span>
               </div>
               <div class="duration">
                 <fa :icon="['fas', 'calendar-alt']"/>
