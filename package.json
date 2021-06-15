@@ -8,10 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "latest",
-    "@fortawesome/pro-regular-svg-icons": "latest",
-    "@fortawesome/pro-solid-svg-icons": "latest",
-    "@fortawesome/vue-fontawesome": "0.1.2",
+    "@fortawesome/fontawesome-pro": "file:../general-assets/fa/faPro.tgz",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/pro-duotone-svg-icons": "file:../general-assets/fa/faProDuo.tgz",
+    "@fortawesome/pro-light-svg-icons": "file:../general-assets/fa/faProLight.tgz",
+    "@fortawesome/pro-regular-svg-icons": "file:../general-assets/fa/faProReg.tgz",
+    "@fortawesome/pro-solid-svg-icons": "file:../general-assets/fa/faProSolid.tgz",
+    "@fortawesome/vue-fontawesome": "^2.0.2",
     "core-js": "^2.6.5",
     "normalize": "^0.3.1",
     "normalize.css": "^8.0.1",
@@ -25,7 +29,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.0.0",
     "sass-loader": "^7.1.0",
     "vue-particles": "^1.0.9",
     "vue-template-compiler": "^2.5.21"

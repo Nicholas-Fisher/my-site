@@ -39,7 +39,7 @@
             </div>
             <div class="personal-info">
               <fa :icon="['fas', 'clock']"/>
-              <span>7+ years web development experience</span>
+              <span>8+ years web development experience</span>
             </div>
             <div class="personal-info">
               <fa :icon="['fas', 'handshake']"/>
@@ -69,7 +69,8 @@
             </div>
             <ul>
               <li>Developed and designed various websites.</li>
-              <li>Built a complex real-time ordering system using Firebase serverless technology.</li>
+              <li>Built a complex real-time ordering system using Firebase serverless technology: <a href="https://sitch.cards">tapmenu.ca</a>.</li>
+              <li>Built a sharing platform called Sitch: <a href="https://sitch.cards">sitch.cards</a>.</li>
               <li>Built an NFC utility web app.</li>
               <li>Built a real time chat application for teachers and students</li>
               <li>Added node.js experience by building express servers</li>
@@ -275,11 +276,11 @@
               <span>P</span>
             </div>
             <div class="skill">
-              <span>AngularJS</span>
-              <span>I</span>
+              <span>Express</span>
+              <span>P</span>
             </div>
             <div class="skill">
-              <span>Express</span>
+              <span>AngularJS</span>
               <span>I</span>
             </div>
           </div>
@@ -288,6 +289,14 @@
 
           <div class="info-card">
             <div class="title">Libraries</div>
+            <div class="skill">
+              <span>Storybook</span>
+              <span>P</span>
+            </div>
+            <div class="skill">
+              <span>Cypress</span>
+              <span>P</span>
+            </div>
             <div class="skill">
               <span>Vuetify</span>
               <span>P</span>
